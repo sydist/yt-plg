@@ -77,3 +77,12 @@ button {
 button:hover {
   opacity: 0.8;
 }
+
+h1 {
+  margin: 0;
+}
+
+.lead {
+  margin-block: 0.5rem 2rem;
+  font-size: 1.2rem;
+}
