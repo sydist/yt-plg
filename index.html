@@ -17,18 +17,18 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <head>
+    <header>
       <h1>Youtube Playlist Generator (yt-plg)</h1>
       <p class="lead">
         “How can I create a playlist on YouTube”, you ask? Well, you're in the
         right place, this is the best way to create portable YouTube playlist
         links!
       </p>
-    </head>
+    </header>
     <main>
       <form id="videos-form" aria-label="playlist generator form">
         <label>
-          <div>Enter a list of seperated video links:</div>
+          Enter a list of seperated video links:
           <textarea
             id="videos-list"
             rows="15"
@@ -39,7 +39,7 @@
         </label>
         <button>Generate Link</button>
         <output for="videos-list">
-          <a id="output-link" target="_blank"></a>
+          <a id="output-link" href="/" target="_blank"></a>
         </output>
       </form>
     </main>
